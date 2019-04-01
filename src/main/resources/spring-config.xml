@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <context:annotation-config />
+
+    <bean name="astronaut1" class="Entity.Astronaut" >
+        <property name="name" value="Andrei"></property>
+        <property name="age" value="20"></property>
+        <property name="skill" value="10"></property>
+    </bean>
+    <bean name="astronaut2" class="Entity.Astronaut" >
+        <property name="name" value="Valera"></property>
+        <property name="age" value="43"></property>
+        <property name="skill" value="9"></property>
+    </bean>
+    <bean name="astronaut3" class="Entity.Astronaut" >
+        <property name="name" value="Anton"></property>
+        <property name="age" value="19"></property>
+        <property name="skill" value="5"></property>
+    </bean>
+    <bean name="astronaut4" class="Entity.Astronaut" >
+        <property name="name" value="Andrei"></property>
+        <property name="age" value="32"></property>
+        <property name="skill" value="4"></property>
+    </bean>
+    <bean name="astronaut5" class="Entity.Astronaut" >
+        <property name="name" value="Valentin"></property>
+        <property name="age" value="36"></property>
+        <property name="skill" value="9"></property>
+    </bean>
+    <bean name="astronaut6" class="Entity.Astronaut" >
+        <property name="name" value="Andrei"></property>
+        <property name="age" value="32"></property>
+        <property name="skill" value="4"></property>
+    </bean>
+    <bean name="astronaut7" class="Entity.Astronaut" >
+        <property name="name" value="Roman"></property>
+        <property name="age" value="23"></property>
+        <property name="skill" value="10"></property>
+    </bean>
+    <bean name="astronaut8" class="Entity.Astronaut" >
+        <property name="name" value="Nikita"></property>
+        <property name="age" value="54"></property>
+        <property name="skill" value="8"></property>
+    </bean>
+    <bean name="astronaut9" class="Entity.Astronaut" >
+        <property name="name" value="Innokentiy"></property>
+        <property name="age" value="33"></property>
+        <property name="skill" value="3"></property>
+    </bean>
+    <bean name="spaceCraft1" class="Entity.SpaceCraft">
+        <property name="name" value="Avalon"></property>
+        <property name="yearMade" value="2014"></property>
+        <property name="capacity" value="3"></property>
+        <property name="fuel" value="2000"></property>
+    </bean>
+    <bean name="spaceCraft2" class="Entity.SpaceCraft">
+        <property name="name" value="Crafter-9000"></property>
+        <property name="yearMade" value="2018"></property>
+        <property name="capacity" value="5"></property>
+        <property name="fuel" value="3000"></property>
+    </bean>
+    <bean name="trip1" class="Entity.Trip">
+        <property name="description" value="trip to the mars"></property>
+        <property name="distance" value="300000000"></property>
+        <property name="duration" value="40000"></property>
+    </bean>
+</beans>
